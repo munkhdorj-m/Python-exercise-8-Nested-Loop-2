@@ -34,11 +34,11 @@ Print below pattern with given n:
 
 	Input: 5
  	Output:
-	     1 
-	    2 2 
-	   3 3 3 
-	  4 4 4 4 
-	 5 5 5 5 5
+	    1 
+	   2 2 
+	  3 3 3 
+	 4 4 4 4 
+	5 5 5 5 5
 
 ---
 
