@@ -17,6 +17,7 @@ def test1(capsys):
     print_pattern_1(5)
     captured = capsys.readouterr()
     assert captured.out == expected_output
+    assert check_contains_loop(print_pattern_1)
 
 def test2(capsys):
     expected_output = (
@@ -29,6 +30,7 @@ def test2(capsys):
     print_pattern_2(5)
     captured = capsys.readouterr()
     assert captured.out == expected_output
+    assert check_contains_loop(print_pattern_2)
 
 def test3(capsys):
     expected_output = (
@@ -41,3 +43,4 @@ def test3(capsys):
     print_pattern_3(5)
     captured = capsys.readouterr()
     assert captured.out == expected_output
+    assert check_contains_loop(print_pattern_3)
